@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/ithang-freelance-website/static/css/main.bf9d2493.css",
-    "main.js": "/ithang-freelance-website/static/js/main.6cc9834f.js",
+    "main.css": "/ithang-freelance-website/static/css/main.ddcd694a.css",
+    "main.js": "/ithang-freelance-website/static/js/main.17f5a3f8.js",
     "static/js/787.c922dae8.chunk.js": "/ithang-freelance-website/static/js/787.c922dae8.chunk.js",
     "static/media/banner2.png": "/ithang-freelance-website/static/media/banner2.39b743a5c0b956b119f0.png",
+    "static/media/banner3.png": "/ithang-freelance-website/static/media/banner3.a1df1d487480c78294be.png",
     "static/media/Artboard2.png": "/ithang-freelance-website/static/media/Artboard2.15a9a712f7f60cf153b2.png",
     "static/media/Artboard 1.png": "/ithang-freelance-website/static/media/Artboard 1.9d243811aef0e791f570.png",
     "static/media/graphicdesign.png": "/ithang-freelance-website/static/media/graphicdesign.6434ec06215a83953db8.png",
     "static/media/logo.png": "/ithang-freelance-website/static/media/logo.be93a23c9f841221dfe2.png",
     "index.html": "/ithang-freelance-website/index.html",
-    "main.bf9d2493.css.map": "/ithang-freelance-website/static/css/main.bf9d2493.css.map",
-    "main.6cc9834f.js.map": "/ithang-freelance-website/static/js/main.6cc9834f.js.map",
+    "main.ddcd694a.css.map": "/ithang-freelance-website/static/css/main.ddcd694a.css.map",
+    "main.17f5a3f8.js.map": "/ithang-freelance-website/static/js/main.17f5a3f8.js.map",
     "787.c922dae8.chunk.js.map": "/ithang-freelance-website/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf9d2493.css",
-    "static/js/main.6cc9834f.js"
+    "static/css/main.ddcd694a.css",
+    "static/js/main.17f5a3f8.js"
   ]
 }
