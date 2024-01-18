@@ -1,0 +1,80 @@
+@media (max-width: 1100px){
+ .navSearch{
+    display: none;
+ }  
+ .navbar{
+    display: block;
+ }
+ .NavOption{
+    background-color: rgb(255, 255, 255);
+    width: 20rem;
+    border: 2px solid var(--mainBlue);
+    flex-direction: column;
+   height: 100%;
+   position: fixed;
+   margin-top: -0.3rem;
+
+   
+ }
+.NavOption ul {
+    flex-direction: column;
+    padding: 2rem 0 7rem 0;
+    align-items:flex-start;
+    /* background-color: blue; */
+    width: 95%;
+   
+  }
+  .NavLinks li {
+    padding: 2rem 0 2rem 1rem;
+    width: 90%;
+    justify-content: left;
+    
+}
+
+.NavLinks li a{
+    color: black;
+    transition: all 0.5s ease;
+}
+.NavLinks li a:hover{
+font-weight: bold;
+
+}
+.btn{
+    margin-left: -10rem;
+}
+.MenuIcon{
+    display: flex;
+    position:relative;
+    margin: -3.7rem 2rem 2.2rem 0 ;
+    /* margin-left: auto; */
+    justify-content: flex-end;
+    
+}
+#hamburger{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+   margin-left: auto;
+    z-index: 2;
+    transition: all 0.5s ease;
+}
+#hamburger:focus{
+    outline: none;
+}
+.MenuToggle{
+opacity: 1;
+
+transition: all 0.5s ease;
+}
+
+  .NavOption.hidden{
+    opacity: 0;
+  transform: translateY(-10px);
+  left: -50rem;
+
+  }
+
+
+
+
+
+}

@@ -1,0 +1,38 @@
+h1{
+    margin: 2rem 0 2rem 0;
+    font-size: 4rem;
+}
+
+
+:root{
+    --mainBlue: #3594FF;
+  }
+
+@media(max-width: 900px){
+    h1{
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .searchcont .searchbox{
+        height: 4rem;
+    }
+}
+
+@media(max-width:530px){
+    h1{
+        font-size: 1.5rem;
+    }
+    .head1{
+        margin: 0;
+    }
+
+    .searchcont .searchbox{
+        height: 3rem;
+        padding: 1rem;
+    }
+    .searchicon{
+        font-size: 30px;
+        /* background-color:var(--mainBlue) ; */
+        color: rgb(29, 29, 29);
+    }
+}

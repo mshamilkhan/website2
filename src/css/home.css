@@ -1,0 +1,114 @@
+.container1{
+    position: relative;
+}
+.head1{
+    margin: 0 0 2rem 0 ;
+}
+.mainImgSearch {
+    position: absolute; /* Position the text absolutely within the container */
+    top: 30%;
+    margin: 2rem;
+    left: 10%;
+    text-align: center; /* Align the text within its container */
+    color: white; /* Ensure text visibility against the image */
+    font-size: 30px; /* Adjust font size as needed */
+  }
+  .container1 img{
+    width: 100%;
+    height: auto;
+  }
+  .searchcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .searchbox{
+    width: 90%;
+    height: 4rem;
+    /* margin: 2rem 0 2rem 0; */
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+  }
+  .searchbox:focus{
+    border: none;
+  }
+  .searchbox:hover{
+    width: 93%;
+    height: 4.2rem;
+    
+  }
+  .searchicon{
+    position: relative;
+    color: black;
+    
+  }
+
+
+
+  /* POPULAR SERVICES */
+  .popularServ{
+    padding: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    
+  }
+  .popbox img{
+    margin: 4rem;
+    width: 20rem;
+    height: auto;
+    
+  }
+  .banner{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+height: auto;
+
+  }
+
+  .banner img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: auto;
+    display: block;
+  }
+.bannertext{
+    width: 60%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   position: absolute;
+   background-color: brown;
+   
+
+}
+.bannertext img{
+    width: 7rem;
+    height: auto;
+}
+
+
+
+
+
+  @media(max-width:900px){
+    .mainImgSearch{
+        top: 0;
+    }
+    
+    .container1 img{
+content: url("../components//images/Artboard2.png")
+    }
+    .popbox img{
+        width: 12rem;
+    }
+  }
